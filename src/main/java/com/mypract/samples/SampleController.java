@@ -43,6 +43,6 @@ public class SampleController {
 
     @RequestMapping(path = "/other", method = RequestMethod.GET)
     public Flux<String> getOther() {
-        return sample1.getOther().flux();
+        return sample1.getOther().flux().log();
     }
 }
