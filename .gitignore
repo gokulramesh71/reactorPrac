@@ -2,6 +2,11 @@ build/
 .gradle/
 .idea/
 gradle*/
+.settings/
+.sts4-cache/
+.vscode/
+bin
+out
 
 
 
