@@ -25,5 +25,6 @@ dependencies {
     compile group: 'org.json', name: 'json', version: '20190722'
     compile group: 'io.projectreactor', name: 'reactor-core', version: '3.3.0.RELEASE'
     compile group: 'io.projectreactor.tools', name: 'blockhound', version: '1.0.0.RELEASE'
+    compile group: 'io.projectreactor.addons', name: 'reactor-extra', version: '3.3.2.RELEASE'
 
 }
